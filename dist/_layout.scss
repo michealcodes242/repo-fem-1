@@ -72,3 +72,10 @@ width: 80%;
 
 
 
+// helper class 
+
+
+.text-center{
+     @include text-center;
+
+}

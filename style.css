@@ -170,6 +170,10 @@ a {
   height: 300px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .vector {
   width: 100%;
   text-align: center;
