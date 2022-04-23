@@ -1,0 +1,114 @@
+// Header Responsive work flow
+
+.hero-image {
+
+@include desktop {
+    background:url("./img/bg-header-desktop.png");
+  }
+}
+
+// Buttons
+
+  .btn-display {
+   @include desktop {
+    flex-direction: row;
+    margin-left:20%;
+    margin-right:20%;
+
+
+  }
+}
+
+
+//Images 
+
+
+.body-img-2{
+  @include desktop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  }
+ 
+
+// MID SECTION RESPONSIVE
+
+.ctn-mid{
+  @media (min-width:700px) {
+    display:flex;
+
+  }
+}
+
+.child-mid-left {
+  @media (min-width:700px) { 
+
+     width:50%; }
+ 
+
+
+}
+
+.child-mid-right {
+
+  @include desktop {
+    text-align:left;
+    font-size:0.8em;
+    margin-left:3rem;
+    margin-top:3rem;
+    padding:1rem;
+   
+   
+}
+}
+
+
+
+// bottom section *BEFORE FOOTER*
+
+.vector-list-1 {
+   @include desktop {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+.vector-list-2 {
+  @include desktop {
+   display:flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+   width:100%;
+  }
+}
+
+
+// Footer Responsiveness 
+
+footer {
+  @include desktop {
+    flex-direction:row;
+    height:100px;
+  }
+}
+
+
+.footer-nav {
+  @include desktop {
+    flex-direction:row;
+   ;
+  }
+}
+
+
+.footer-icons {
+  @include desktop {
+    margin-right:14px;
+  }
+}
+

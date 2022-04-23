@@ -1,0 +1,29 @@
+@mixin desktop {
+    @media (min-width:500px) { @content; }
+}
+
+
+
+
+@mixin icon {
+    width:10%;
+    height:2rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+   
+  
+    
+}
+
+@mixin logos {
+    height:2rem;
+    width:100%;
+    
+ 
+}
+@mixin flex {
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    align-items:center;
+}

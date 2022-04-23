@@ -1,0 +1,74 @@
+// Center objects
+.ctn {
+    text-align: center;
+   
+}
+
+.spacer {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+
+
+
+
+// Image definition
+.body-img {
+    height:350px;
+    width:100%;
+    background:url(./img/image-computer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+.body-img-2 {
+    height:300px;
+    width:100%;
+    background:url(./img/image-devices.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+
+// Control spacing of MID SEC layout 
+
+
+
+.ctn-mid {
+ 
+    margin-top:10rem;
+    margin-bottom:10rem;
+}
+.child-mid-left{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+.child-mid-right {
+    margin:3rem;
+}
+
+// VECTOR SPACING
+
+.v-spacer {
+    padding-top:2rem;
+}
+
+.v-spacer-2 {
+    width:100%;
+   margin:20px;
+}
+.vector-list-1 {
+   @include flex;
+
+}
+
+.vector{
+    height:300px;
+}
+
+
+

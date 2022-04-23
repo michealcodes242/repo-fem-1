@@ -1,0 +1,40 @@
+footer {
+    height:450px;
+    background-color:#F5F6F8;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+
+.footer-logo {
+   
+    display:block;
+    height:70px;
+    width:15%;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(./img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+}
+
+.footer-nav {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+    padding:1rem;
+}
+
+img {
+    padding:1rem;
+}

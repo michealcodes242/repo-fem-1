@@ -1,0 +1,45 @@
+#btn-1 {
+    background-color:$prim-strong;
+}
+
+#btn-2 {
+    background-color:$prim-light;
+  
+    
+}
+#btn-1:hover {
+    box-shadow:3px 2px 3px hsl(171, 54%, 45%);
+}
+#btn-2:hover {
+    box-shadow:3px 2px 3px hsl(233, 74%, 70%);
+}
+
+
+.btn-home{
+    width:80%;
+    padding:13px;
+    margin:10px;
+    border-radius: 20px;
+    margin-bottom:20px;
+    color:#fff;
+    font-weight:700;
+    font-family: $font-stack;
+    font-size:18px;
+    border-style:none;
+    
+
+  
+}
+.btn-home:hover {
+    cursor:pointer;
+}
+ 
+
+.btn-display {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}

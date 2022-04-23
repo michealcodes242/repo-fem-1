@@ -1,0 +1,38 @@
+
+
+.vector {
+   
+    width:100%;
+    text-align:center;
+    position:relative;
+}
+.icon-center{
+    
+    position: absolute;
+    left:50%;
+    margin-left:-5%;
+    
+    
+}
+
+.vector-icon-1 {
+    background:url(./img/icon-blacklist.svg);
+    @include icon;
+
+
+
+}
+.vector-icon-2 {
+    background:url(./img/icon-text.svg);
+  @include icon;
+
+
+
+}
+
+.vector-icon-3 {
+    background:url(./img/icon-preview.svg);
+    @include icon;
+
+}
+

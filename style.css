@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap");
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #9fabb2;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+a {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  color: #4c545d;
+  text-decoration: none;
+}
+
+.hero-image {
+  height: 240px;
+  width: 100%;
+  background: url("./img/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  height: 86px;
+  width: 15%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-left: -3%;
+  background: url("./img/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#btn-1 {
+  background-color: #26baa4;
+}
+
+#btn-2 {
+  background-color: #6173ff;
+}
+
+#btn-1:hover {
+  -webkit-box-shadow: 3px 2px 3px #35b19e;
+          box-shadow: 3px 2px 3px #35b19e;
+}
+
+#btn-2:hover {
+  -webkit-box-shadow: 3px 2px 3px #7a87eb;
+          box-shadow: 3px 2px 3px #7a87eb;
+}
+
+.btn-home {
+  width: 80%;
+  padding: 13px;
+  margin: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  border-style: none;
+}
+
+.btn-home:hover {
+  cursor: pointer;
+}
+
+.btn-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ctn {
+  text-align: center;
+}
+
+.spacer {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.body-img {
+  height: 350px;
+  width: 100%;
+  background: url(./img/image-computer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.body-img-2 {
+  height: 300px;
+  width: 100%;
+  background: url(./img/image-devices.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ctn-mid {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.child-mid-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.child-mid-right {
+  margin: 3rem;
+}
+
+.v-spacer {
+  padding-top: 2rem;
+}
+
+.v-spacer-2 {
+  width: 100%;
+  margin: 20px;
+}
+
+.vector-list-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vector {
+  height: 300px;
+}
+
+.vector {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.icon-center {
+  position: absolute;
+  left: 50%;
+  margin-left: -5%;
+}
+
+.vector-icon-1 {
+  background: url(./img/icon-blacklist.svg);
+  width: 10%;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vector-icon-2 {
+  background: url(./img/icon-text.svg);
+  width: 10%;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vector-icon-3 {
+  background: url(./img/icon-preview.svg);
+  width: 10%;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.google {
+  height: 2rem;
+  width: 100%;
+  background: url(./img/logo-google.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ibm {
+  height: 2rem;
+  width: 100%;
+  background: url(./img/logo-ibm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.microsoft {
+  height: 2rem;
+  width: 100%;
+  background: url(./img/logo-microsoft.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hp {
+  height: 2rem;
+  width: 100%;
+  background: url(./img/logo-hp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vg {
+  height: 2rem;
+  width: 100%;
+  background: url(./img/logo-vector-graphics.png);
+  background-position: contain;
+  background-repeat: no-repeat;
+}
+
+.vector-list-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  height: 450px;
+  background-color: #F5F6F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-logo {
+  display: block;
+  height: 70px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(./img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  padding: 1rem;
+}
+
+img {
+  padding: 1rem;
+}
+
+@media (min-width: 500px) {
+  .hero-image {
+    background: url("./img/bg-header-desktop.png");
+  }
+}
+
+@media (min-width: 500px) {
+  .btn-display {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (min-width: 500px) {
+  .body-img-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
+
+@media (min-width: 700px) {
+  .ctn-mid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 700px) {
+  .child-mid-left {
+    width: 50%;
+  }
+}
+
+@media (min-width: 500px) {
+  .child-mid-right {
+    text-align: left;
+    font-size: 0.8em;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .vector-list-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .vector-list-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100px;
+  }
+}
+
+@media (min-width: 500px) {
+  .footer-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 500px) {
+  .footer-icons {
+    margin-right: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
